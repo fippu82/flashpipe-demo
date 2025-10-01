@@ -20,7 +20,7 @@ take_snapshot:
     - git fetch origin main  # Fetch the main branch from the remote
     - git checkout main      # Checkout the main branch locally in order to be able to push it back afterwards
     - echo "Delete all previously backed-up files and download again the current state of the tenant"
-    - git rm -rf ./backup/*
+    - git rm -rf ./backup
     - 'echo "Taking a snapshot with the following parameters:"'
     - 'echo "Directory: $ARTIFACT_DIRECTORY"'
     - 'echo "Excluded IDs: $EXCLUDED_IDS"'
