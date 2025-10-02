@@ -19,7 +19,7 @@ take_snapshot:
     - echo "Checking out main branch"
     - git fetch origin main  # Fetch the main branch from the remote
     - git checkout main      # Checkout the main branch locally in order to be able to push it back afterwards
-    - echo "Download the current state of the tenant and add it to the repo."
+    - echo "Download the current state of the tenant and add it to the repo. "
     - 'echo "Taking a snapshot with the following parameters:"'
     - 'echo "Directory: $ARTIFACT_DIRECTORY"'
     - 'echo "Excluded IDs: $EXCLUDED_IDS"'
